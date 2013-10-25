@@ -9,8 +9,6 @@
 
 	add_action('wp_enqueue_scripts', 'load_scripts');
 
-	register_nav_menu( 'primary', 'Primary Navigation' );
-
 	function add_to_context($data){
 		/* this is where you can add your own data to Timber's context object */
 		return $data;
